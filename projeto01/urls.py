@@ -6,7 +6,7 @@ from projapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.home, name="home"),
-    path('galeria',views.galeria,name="galeria"),
+    path('produtos',views.prdutos,name="produtos"),
     path('sobrenos',views.sobrenos,name="sobrenos"),
     path('contato',views.contato,name="contato")
 ]
